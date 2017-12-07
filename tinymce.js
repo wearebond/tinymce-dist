@@ -26167,7 +26167,8 @@ define(
           'image/jpeg': 'jpg',
           'image/jpg': 'jpg',
           'image/gif': 'gif',
-          'image/png': 'png'
+          'image/png': 'png',
+          'image/tiff': 'tif'
         };
 
         return mimes[mime.toLowerCase()] || 'dat';
